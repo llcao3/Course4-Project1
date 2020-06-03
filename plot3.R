@@ -32,7 +32,7 @@ DT1$Sub_metering_3 <- as.numeric(DT1$Sub_metering_3)
 str(DT1)
 
 #plot3
-png("plot3.png")
+png("plot3.png", width=480, height=480)
 T <- DT1$Date_Time
 Sub_metering_1 <- DT1$Sub_metering_1
 Sub_metering_2 <- DT1$Sub_metering_2

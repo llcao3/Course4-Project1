@@ -37,7 +37,7 @@ DT1$Sub_metering_3 <- as.numeric(DT1$Sub_metering_3)
 str(DT1)
 
 #plot1
-png("plot1.png")
+png("plot1.png", width=480, height=480)
 Global_active_power <- DT1$Global_active_power
 hist(Global_active_power, col="red", main = "Global Active Power", xlab="Global Active Power (kilowatts)")
 dev.off()

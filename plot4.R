@@ -32,7 +32,7 @@ DT1$Sub_metering_3 <- as.numeric(DT1$Sub_metering_3)
 str(DT1)
 
 #plot4
-png("plot4.png")
+png("plot4.png", width=480, height=480)
 T <- DT1$Date_Time
 Global_active_power <- DT1$Global_active_power
 Global_reactive_power <- DT1$Global_reactive_power

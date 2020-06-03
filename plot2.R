@@ -32,7 +32,7 @@ DT1$Sub_metering_3 <- as.numeric(DT1$Sub_metering_3)
 str(DT1)
 
 #plot2
-png("plot2.png")
+png("plot2.png", width=480, height=480)
 T <- DT1$Date_Time
 plot(T,Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
