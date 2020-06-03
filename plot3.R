@@ -1,3 +1,8 @@
+setwd("/Users/lulu/R_Coursera/Course4-Project1")
+library(data.table)
+library(dplyr)
+library(lubridate)
+
 #download the zip file and unzip it
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 if(!file.exists("household_power_consumption.txt")) {
